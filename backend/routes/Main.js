@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const main=express.Router();
 
 
@@ -7,4 +7,4 @@ main.get('/',(req,res)=>{
 })
 
 
-module.exports = main;
+export default main;
